@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-06-01 16:10:00",
+  "schema_version": "themes.manual_boost.v1",
+  "source_files": [
+    "01_Data_Harvest/VIP_Txt_Dumps/AI_Computing_Infrastructure.txt",
+    "01_Data_Harvest/VIP_Txt_Dumps/Interconnect.txt",
+    "01_Data_Harvest/VIP_Txt_Dumps/Liquid_Cooling.txt"
+  ],
+  "tracks": [
+    {
+      "track": "AI_Compute_Core",
+      "priority": "high",
+      "weight": 1.18,
+      "bottlenecks": [
+        "机柜功耗密度从40-60kW向120kW+跃迁，传统风冷在20-25kW附近失效",
+        "传统AC链路在高电流下损耗与保护复杂度激增，800VDC成为近端供电关键路径",
+        "公用电网扩容与高压配电设备交期成为建设节奏上限"
+      ],
+      "quant_signals": [
+        "目标机柜密度>40kW占比持续上升，>100kW区间成为新扩容前沿",
+        "电力可得性在建设延迟因素中占比最高（约46%）",
+        "变压器/高压开关柜长交期被高频提及"
+      ],
+      "a_share_mapping": [
+        "高压配电与开关设备",
+        "变压器/母线槽",
+        "数据中心电力模块与电源管理"
+      ]
+    },
+    {
+      "track": "High_Speed_Interconnect",
+      "priority": "high",
+      "weight": 1.16,
+      "bottlenecks": [
+        "1.6T光模块在OSFP形态下热密度与功耗抬升，散热路径决定可用性",
+        "CPO与近封装互联将热设计与封装协同推向系统级难题",
+        "互联速率升级受制于高带宽存储与封装一致性"
+      ],
+      "quant_signals": [
+        "1.6T模块功耗显著高于800G并伴随温升挑战",
+        "机柜液冷渗透提升会倒逼可液冷兼容光模块方案",
+        "CPO与In-package optics在工程样机与论文中密集出现"
+      ],
+      "a_share_mapping": [
+        "高速光模块/光器件",
+        "硅光与薄膜铌酸锂链条",
+        "高速连接器与背板"
+      ]
+    },
+    {
+      "track": "Advanced_Substrates",
+      "priority": "medium_high",
+      "weight": 1.12,
+      "bottlenecks": [
+        "先进封装（chiplet/CPO）对基板、热路径与可靠性提出更高要求",
+        "高密度互联中的材料与工艺良率是规模化关键",
+        "封装与互联协同开发周期拉长，导入节奏受头部客户验证约束"
+      ],
+      "quant_signals": [
+        "涉及chiplet/packaging的技术文献与工程案例持续增加",
+        "高功耗场景下封装热阻与可靠性成为约束项"
+      ],
+      "a_share_mapping": [
+        "先进封装材料与基板",
+        "电子陶瓷/HTCC相关链条",
+        "封装设备与测试"
+      ]
+    },
+    {
+      "track": "Next_Gen_Storage",
+      "priority": "high",
+      "weight": 1.15,
+      "bottlenecks": [
+        "HBM4/更高带宽存储与封装、散热、供电形成耦合瓶颈",
+        "存储与互联共同约束AI集群实际吞吐",
+        "存储器件热管理与系统级液冷设计相互影响"
+      ],
+      "quant_signals": [
+        "HBM4与in-package optics同频出现，表明系统协同趋势增强",
+        "高密度算力平台中存储与互联功耗权重上升"
+      ],
+      "a_share_mapping": [
+        "存储模组与控制器链",
+        "先进封装协同受益环节",
+        "散热与电源配套"
+      ]
+    },
+    {
+      "track": "Infrastructure_Risk_Control",
+      "priority": "high",
+      "weight": 1.2,
+      "bottlenecks": [
+        "液冷系统滴漏风险与带电维护安全要求高，QD/盲插接口成为关键风险点",
+        "流体回路材料兼容性（铜回路禁铝）与微通道堵塞是寿命杀手",
+        "高流速导致压力降与泵功耗上升，配管/QD贡献大于冷板本体"
+      ],
+      "quant_signals": [
+        "冷板仅消纳约70-75%热量，仍需混合散热",
+        "服务器模块压力降中配管与接头占比可接近69%",
+        "低温运行会因黏度上升带来约25%压力降惩罚"
+      ],
+      "a_share_mapping": [
+        "液冷快换接头/QD与分液歧管",
+        "冷却液回路密封与过滤组件",
+        "液冷CDU与泵阀系统"
+      ]
+    }
+  ]
+}

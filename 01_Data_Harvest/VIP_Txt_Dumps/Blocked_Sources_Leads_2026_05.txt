@@ -1,0 +1,27 @@
+
+
+================================================================================
+时间: 2026-06-01 15:26:59
+来源: WSJ Tech
+- Nvidia Introduces First PCs Designed for AI Agents
+  https://www.wsj.com/tech/ai/nvidia-introduces-first-pcs-designed-for-ai-agents-47445bcd?mod=tech_lead_story
+- Venture Capital Turns to Hardware Bets as AI Threatens Software Companies
+  https://www.wsj.com/tech/ai/venture-capital-turns-to-hardware-bets-as-ai-threatens-software-companies-29b8b5f3?mod=tech_lead_pos1
+- Tokenmaxxing Maxes Out
+  https://www.wsj.com/tech/tokenmaxxing-maxes-out-37103747?mod=tech_lead_pos2
+- The Messy Reality of Building an Empire in Space
+  https://www.wsj.com/tech/blue-origin-spacex-rivalry-cebe1bc0?mod=tech_lead_pos3
+- The High-Stakes Hunt for the Next Amazon in the AI Haystack
+  https://www.wsj.com/tech/ai/the-high-stakes-hunt-for-the-next-amazon-in-the-ai-haystack-0eb6536f?mod=tech_lead_pos4
+- SoftBank to Plow $52 Billion Into French Data Centers
+  https://www.wsj.com/tech/ai/softbank-to-plow-52-billion-into-french-data-centers-5268a1be?mod=tech_lead_pos5
+- The Billionaire Coding Genius Making the Tough Decisions at OpenAI
+  https://www.wsj.com/tech/openai-who-is-greg-brockman-e699816c?mod=tech_trendingnow_article_pos2
+- Corporate America Is Starting to Ration AI as Cost Skyrockets
+  https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a?mod=tech_trendingnow_article_pos3
+- The Google Engineer Accused of Risking It All With an Insider Polymarket Bet
+  https://www.wsj.com/tech/google-engineer-polymarket-bet-4d27b6b7?mod=tech_trendingnow_article_pos4
+- Putin’s $26 Billion Longevity Push
+  https://www.wsj.com/tech/ai/putins-26-billion-longevity-push-cefe975d?mod=tech_more_article_pos4
+- Dell Stock Soars on Data-Center Revenue and Pentagon Deal
+  https://www.wsj.com/tech/dell-stock-soars-on-data-center-revenue-and-pentagon-deal-6645700b?mod=tech_more_article_pos5

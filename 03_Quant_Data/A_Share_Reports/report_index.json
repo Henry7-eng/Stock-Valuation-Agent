@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-06-03 17:02:57",
+  "config": {
+    "lookback_days": 365,
+    "whitelist": [
+      "年度报告",
+      "投资者关系",
+      "可行性分析"
+    ],
+    "blacklist": [
+      "摘要",
+      "英文",
+      "取消",
+      "延期",
+      "提示性",
+      "回复公告"
+    ],
+    "report_dir": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports",
+    "max_retries": 3,
+    "retry_sleep": 2,
+    "timeout": 25,
+    "max_workers": 4
+  },
+  "summary": {
+    "total": 1,
+    "ok": 1,
+    "failed": 0
+  },
+  "results": [
+    {
+      "ts_code": "601138.SH",
+      "started_at": "2026-06-03 17:02:44",
+      "candidates": 0,
+      "selected": {
+        "annual": null,
+        "ir": null
+      },
+      "downloads": [
+        {
+          "ts_code": "601138.SH",
+          "report_type": "年度报告",
+          "status": "not_found"
+        },
+        {
+          "ts_code": "601138.SH",
+          "report_type": "投资者关系活动记录",
+          "status": "not_found"
+        }
+      ],
+      "txt_outputs": [],
+      "status": "ok",
+      "error": null,
+      "failed_reports": [],
+      "finished_at": "2026-06-03 17:02:57"
+    }
+  ]
+}

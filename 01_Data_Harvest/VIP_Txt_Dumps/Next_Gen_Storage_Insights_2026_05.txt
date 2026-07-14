@@ -1,0 +1,9 @@
+
+
+================================================================================
+时间: 2026-06-01 15:22:55
+标题: Router-in-a-Package Design Combining HBM4, Chiplets and In-Package Optics (Technion, Berkeley, UCSD)
+链接: https://semiengineering.com/router-in-a-package-design-combining-hbm4-chiplets-and-in-package-optics/
+赛道置信度: 0.500
+内容:
+Find the technical paper here. Keslassy, Isaac, Ilay Yavlovich, Jose Yallouz, Tzu-Chien Hsueh, Yeshaiahu Fainman, and Bill Lin. “Scaling Routers with In-Package Optics and High-Bandwidth Memories.” arXiv preprint arXiv:2602.10505 (2026). Name* (Note: This name will be displayed publicly) Email* (This will not be displayed publicly) Δ document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );

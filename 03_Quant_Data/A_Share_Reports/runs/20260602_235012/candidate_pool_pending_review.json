@@ -1,0 +1,40 @@
+{
+  "schema_version": "pool.v3",
+  "generated_at": "2026-06-02 23:59:57",
+  "filters": {
+    "exclude_star": true,
+    "exclude_chinext": true,
+    "min_daily_amount": 50000000.0,
+    "top_n": 50
+  },
+  "theme_overlay": {
+    "auto": {
+      "enabled": true,
+      "theme_count": 4,
+      "generated_at": "2026-06-02 17:12:48",
+      "weights": {
+        "Low_Altitude_eVTOL": 1.018,
+        "Humanoid_Robotics": 0.995,
+        "Next_Gen_Storage": 0.935,
+        "Innovative_Drugs": 1.067
+      }
+    },
+    "manual": {
+      "enabled": true,
+      "track_count": 5,
+      "generated_at": "2026-06-01 16:10:00",
+      "weights": {
+        "AI_Compute_Core": 1.18,
+        "High_Speed_Interconnect": 1.16,
+        "Advanced_Substrates": 1.12,
+        "Next_Gen_Storage": 1.15,
+        "Infrastructure_Risk_Control": 1.2
+      }
+    }
+  },
+  "summary": {
+    "candidates_total": 0,
+    "selected_count": 0
+  },
+  "candidates": []
+}

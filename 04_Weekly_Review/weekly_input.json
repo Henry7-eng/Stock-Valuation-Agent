@@ -1,0 +1,37 @@
+{
+  "week_label": "2026-W23",
+  "start_cash": 0,
+  "end_cash": 0,
+  "max_drawdown_pct": -1.8,
+  "rules": {
+    "stop_loss_pct": 6,
+    "first_tranche_pct": 10
+  },
+  "start_positions": [
+    {
+      "ts_code": "002179.SZ",
+      "quantity": 1000,
+      "price": 41.2
+    }
+  ],
+  "end_positions": [
+    {
+      "ts_code": "002179.SZ",
+      "quantity": 1000,
+      "price": 42.7
+    }
+  ],
+  "trades": [
+    {
+      "date": "2026-06-03",
+      "ts_code": "002179.SZ",
+      "side": "BUY",
+      "price": 41.2,
+      "quantity": 1000,
+      "reason": "GO setup",
+      "followed_plan": true,
+      "stop_loss_broken": false,
+      "realized_pnl": 0
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "started_at": "2026-06-01 15:26:44",
+  "finished_at": "2026-06-01 15:27:09",
+  "elapsed_seconds": 25.43,
+  "seen_url_count": 152,
+  "site_stats": [
+    {
+      "site": "Stat News",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 33,
+      "matched": 4,
+      "skipped_seen": 4,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "Reuters Tech",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 0,
+      "matched": 0,
+      "skipped_seen": 0,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "CNBC Tech",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 49,
+      "matched": 4,
+      "skipped_seen": 4,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "VentureBeat AI",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 14,
+      "matched": 1,
+      "skipped_seen": 1,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "WSJ Tech",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 11,
+      "matched": 0,
+      "skipped_seen": 0,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "TechCrunch AI",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 45,
+      "matched": 2,
+      "skipped_seen": 2,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "The Register AI",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 63,
+      "matched": 10,
+      "skipped_seen": 10,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "IEEE Spectrum Robotics",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 63,
+      "matched": 5,
+      "skipped_seen": 5,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "AnandTech Memory",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 39,
+      "matched": 1,
+      "skipped_seen": 0,
+      "saved": 0,
+      "low_quality": 1,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "SemiEngineering Packaging",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 28,
+      "matched": 4,
+      "skipped_seen": 4,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "The Robot Report",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 0,
+      "matched": 0,
+      "skipped_seen": 0,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    },
+    {
+      "site": "Aviation Week AAM",
+      "entry_ok": true,
+      "blocked": 0,
+      "candidates": 45,
+      "matched": 4,
+      "skipped_seen": 4,
+      "saved": 0,
+      "low_quality": 0,
+      "extract_errors": 0,
+      "goto_failures": 0
+    }
+  ],
+  "totals": {
+    "sites": 12,
+    "candidates": 390,
+    "matched": 35,
+    "saved": 0,
+    "low_quality": 1,
+    "extract_errors": 0,
+    "goto_failures": 0
+  }
+}

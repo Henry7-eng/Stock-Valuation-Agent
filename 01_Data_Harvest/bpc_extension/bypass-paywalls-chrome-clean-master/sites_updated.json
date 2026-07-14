@@ -1,0 +1,43 @@
+{
+  "Linda.nl": {
+    "domain": "linda.nl",
+    "allow_cookies": 1,
+    "cs_dompurify": 1,
+    "cs_param": {"premium_sel": "div#article div[class$='premiumlabel' i], article.premium-article_container"},
+    "upd_version": "4.3.7.4"
+  },
+  "NBC News": {
+    "domain": "nbcnews.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.tinypass\\.com",
+    "useragent": "googlebot",
+    "upd_version": "4.3.7.7"
+  },
+  "Piano.io": {
+    "domain": "piano.io",
+    "allow_cookies": 1,
+    "block_regex_general": "\\/xbuilder\\/experience\\/execute",
+    "excluded_domains": ["piano.io", "automobilwoche.de", "frontline.thehindu.com", "hbr.org", "japantimes.co.jp", "nacion.com", "thedispatch.com"],
+    "upd_version": "4.3.7.3"
+  },
+  "StatNews": {
+    "domain": "statnews.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.tinypass\\.com",
+    "ld_archive_is": "div.restricted-content-breaker|.the-content|main section, div[style*='counter-reset:']",
+    "cs_block": 1,
+    "upd_version": "4.3.7.1"
+  },
+  "The Dispatch": {
+    "domain": "thedispatch.com",
+    "allow_cookies": 1,
+    "remove_cookies_select_drop": ["xbc"],
+    "upd_version": "4.3.7.3"
+  },
+  "Vibilagare.se": {
+    "domain": "vibilagare.se",
+    "allow_cookies": 1,
+    "useragent": "googlebot",
+    "upd_version": "4.3.7.5"
+  }
+}

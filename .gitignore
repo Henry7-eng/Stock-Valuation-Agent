@@ -1,0 +1,36 @@
+# ===== Quantamental 2.0 Privacy & Cache Rules =====
+
+# Secrets and credentials
+/config/secrets.py
+*.pem
+*.key
+*.token
+.env
+.env.*
+
+# Python virtual environments and caches
+.venv/
+*.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime browser profiles and local state
+.pw_user_data/
+.playwright/
+
+# Logs
+logs/
+*.log
+
+# Large/generated runtime artifacts can be enabled manually if needed
+# 03_Quant_Data/A_Share_Reports/runs/
+# 03_Quant_Data/A_Share_Reports/stocks/

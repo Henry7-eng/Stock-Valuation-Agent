@@ -1,0 +1,23 @@
+{
+  "schema_version": "vcp_dry_volume.v1",
+  "as_of": "2026-06-08",
+  "generated_at": "2026-06-08T22:30:11",
+  "watchlist": {
+    "000938.SZ": "紫光股份",
+    "000977.SZ": "浪潮信息",
+    "000988.SZ": "华工科技",
+    "002077.SZ": "大港股份",
+    "002156.SZ": "通富微电",
+    "601138.SH": "工业富联"
+  },
+  "results": [],
+  "errors": [
+    "紫光股份/000938.SZ: Tushare 未返回日线数据",
+    "浪潮信息/000977.SZ: Tushare 未返回日线数据",
+    "华工科技/000988.SZ: Tushare 未返回日线数据",
+    "大港股份/002077.SZ: Tushare 未返回日线数据",
+    "通富微电/002156.SZ: Tushare 未返回日线数据",
+    "工业富联/601138.SH: Tushare 未返回日线数据"
+  ],
+  "report_path": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/VCP_Dry_Volume_Monitor/vcp_dry_volume_report_20260608.md"
+}

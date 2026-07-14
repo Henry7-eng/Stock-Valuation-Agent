@@ -1,0 +1,1010 @@
+{
+  "schema_version": "stage4.v1",
+  "as_of_date": "2026-06-22",
+  "code": "002261",
+  "name": "002261",
+  "snapshot": {
+    "latest_price": 31.2,
+    "total_market_cap": 37849443947.0,
+    "pe_ttm": 632.4167,
+    "pb": 14.535,
+    "roe": 2.3885,
+    "grossprofit_margin": 17.2129,
+    "netprofit_margin": 9.701,
+    "revenue_yoy": -4.7247,
+    "profit_yoy": -5.9588,
+    "assets_yoy": 3.3896,
+    "source": [
+      "tushare.daily_basic+fina_indicator",
+      "tushare.daily(last_close)"
+    ]
+  },
+  "valuation_and_growth": {
+    "expected_growth_consensus_pct": -5.9588,
+    "peg": -106.13155333288582,
+    "status": "ok"
+  },
+  "fund_flow_20d": {
+    "net_inflow_20d": -174780.41,
+    "series": [
+      {
+        "date": "2026-05-22",
+        "net_inflow": -7655.13
+      },
+      {
+        "date": "2026-05-25",
+        "net_inflow": 1785.46
+      },
+      {
+        "date": "2026-05-26",
+        "net_inflow": -29020.1
+      },
+      {
+        "date": "2026-05-27",
+        "net_inflow": -28538.97
+      },
+      {
+        "date": "2026-05-28",
+        "net_inflow": 1345.0
+      },
+      {
+        "date": "2026-05-29",
+        "net_inflow": -33320.14
+      },
+      {
+        "date": "2026-06-01",
+        "net_inflow": 22143.95
+      },
+      {
+        "date": "2026-06-02",
+        "net_inflow": -11773.97
+      },
+      {
+        "date": "2026-06-03",
+        "net_inflow": -10471.64
+      },
+      {
+        "date": "2026-06-04",
+        "net_inflow": -14486.08
+      },
+      {
+        "date": "2026-06-05",
+        "net_inflow": -889.35
+      },
+      {
+        "date": "2026-06-08",
+        "net_inflow": -3615.13
+      },
+      {
+        "date": "2026-06-09",
+        "net_inflow": 10992.98
+      },
+      {
+        "date": "2026-06-10",
+        "net_inflow": -43185.35
+      },
+      {
+        "date": "2026-06-11",
+        "net_inflow": -26226.01
+      },
+      {
+        "date": "2026-06-12",
+        "net_inflow": 2808.57
+      },
+      {
+        "date": "2026-06-15",
+        "net_inflow": -13173.12
+      },
+      {
+        "date": "2026-06-16",
+        "net_inflow": -11747.39
+      },
+      {
+        "date": "2026-06-17",
+        "net_inflow": -10183.23
+      },
+      {
+        "date": "2026-06-18",
+        "net_inflow": 30429.24
+      }
+    ],
+    "source": "tushare.moneyflow",
+    "status": "ok"
+  },
+  "institution_holding_change": {
+    "inst_holding_change": {
+      "latest_period": "2026-03-31",
+      "previous_period": "2025-12-31",
+      "latest_hold_amount": 190923141.0,
+      "previous_hold_amount": 194549589.0,
+      "delta": -3626448.0,
+      "delta_pct": -0.018640224421137174
+    },
+    "source": "tushare.top10_floatholders",
+    "status": "ok"
+  },
+  "daily_ma_volume": {
+    "close": 31.2,
+    "ma20": 30.027499999999996,
+    "ma60": 33.658833333333334,
+    "ma120": 33.92583333333334,
+    "ma150": 33.48833333333334,
+    "pos_vs_ma20": 0.03904753975522457,
+    "pos_vs_ma60": -0.07305165063158259,
+    "pos_vs_ma120": -0.08034683500773754,
+    "pos_vs_ma150": -0.06833225501418416,
+    "ma150_slope_10d": -0.2779333333333298,
+    "volume_last": 799190.69,
+    "volume_5d_avg": 660938.042,
+    "volume_20d_avg": 606725.612,
+    "volume_change_vs_5d": 0.2091764117278634,
+    "volume_change_vs_20d": 0.31721930670696663,
+    "high_12w": 39.48,
+    "low_12w": 27.05,
+    "range_12w_pct": 0.4595194085027725,
+    "pullbacks_12w": [
+      0.11229094770374314,
+      0.1836372847011145,
+      0.18450406994271934
+    ],
+    "dry_volume_ratio": 1.3172193067069666
+  },
+  "weekly_ma_volume": {
+    "close": 30.54,
+    "ma20": 34.009,
+    "ma60": 33.3,
+    "ma120": 25.825499999999998,
+    "ma150": null,
+    "pos_vs_ma20": -0.10200241112646657,
+    "pos_vs_ma60": -0.08288288288288281,
+    "pos_vs_ma120": 0.18255212870999604,
+    "pos_vs_ma150": null,
+    "ma150_slope_10d": null,
+    "volume_last": 250549952.0,
+    "volume_5d_avg": 292167931.0,
+    "volume_20d_avg": 480983127.5,
+    "volume_change_vs_5d": -0.14244540411247253,
+    "volume_change_vs_20d": -0.4790878563614479,
+    "high_12w": 41.44,
+    "low_12w": 28.39,
+    "range_12w_pct": 0.4596688974991192,
+    "pullbacks_12w": [
+      0.29512548262548255,
+      0.2324159021406728,
+      0.280901722391084
+    ],
+    "dry_volume_ratio": 0.5209121436385521
+  },
+  "vcp_proxy": {
+    "contraction_count": 3,
+    "recent_pullbacks": [
+      0.11229094770374314,
+      0.1836372847011145,
+      0.18450406994271934
+    ],
+    "descending_contractions": false,
+    "pivot_point": 39.48,
+    "dry_volume_ratio": 1.3172193067069666,
+    "stage_proxy": "unknown"
+  },
+  "audit_prompt_tags": {
+    "damodaran": {
+      "event_vs_narrative": "event优先",
+      "data_confidence_hint": "财务+行情+资金流+持仓",
+      "kill_switch_hint": [
+        "revenue_yoy缺失",
+        "profit_yoy缺失",
+        "150日线走平/下弯",
+        "VCP不成立"
+      ]
+    },
+    "serenity_logic": {
+      "stage_proxy": "unknown",
+      "bottleneck_proxy": 39.48
+    },
+    "tactical_execution": {
+      "ma150_slope_10d": -0.2779333333333298,
+      "pivot_point": 39.48,
+      "dry_volume_ratio": 1.3172193067069666
+    }
+  },
+  "daily_kline_3m": [
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-03-23 00:00:00",
+      "open": 34.49,
+      "high": 36.16,
+      "low": 34.15,
+      "close": 34.28,
+      "pre_close": 35.57,
+      "change": -1.29,
+      "pct_chg": -3.6267,
+      "volume": 1026828.25,
+      "amount": 3615123.992
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-03-24 00:00:00",
+      "open": 35.0,
+      "high": 35.3,
+      "low": 33.77,
+      "close": 34.97,
+      "pre_close": 34.28,
+      "change": 0.69,
+      "pct_chg": 2.0128,
+      "volume": 986406.01,
+      "amount": 3414795.469
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-03-25 00:00:00",
+      "open": 35.0,
+      "high": 36.28,
+      "low": 34.9,
+      "close": 35.72,
+      "pre_close": 34.97,
+      "change": 0.75,
+      "pct_chg": 2.1447,
+      "volume": 1099773.88,
+      "amount": 3938092.975
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-03-26 00:00:00",
+      "open": 35.39,
+      "high": 35.4,
+      "low": 33.43,
+      "close": 33.65,
+      "pre_close": 35.72,
+      "change": -2.07,
+      "pct_chg": -5.7951,
+      "volume": 1113593.62,
+      "amount": 3814902.369
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-03-27 00:00:00",
+      "open": 32.87,
+      "high": 34.99,
+      "low": 32.81,
+      "close": 34.73,
+      "pre_close": 33.65,
+      "change": 1.08,
+      "pct_chg": 3.2095,
+      "volume": 864423.38,
+      "amount": 2904458.151
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-03-30 00:00:00",
+      "open": 33.78,
+      "high": 35.5,
+      "low": 33.57,
+      "close": 35.03,
+      "pre_close": 34.73,
+      "change": 0.3,
+      "pct_chg": 0.8638,
+      "volume": 1004245.22,
+      "amount": 3479103.53
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-03-31 00:00:00",
+      "open": 34.61,
+      "high": 35.61,
+      "low": 34.18,
+      "close": 34.18,
+      "pre_close": 35.03,
+      "change": -0.85,
+      "pct_chg": -2.4265,
+      "volume": 768436.17,
+      "amount": 2682046.27
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-01 00:00:00",
+      "open": 34.87,
+      "high": 35.86,
+      "low": 34.78,
+      "close": 35.23,
+      "pre_close": 34.18,
+      "change": 1.05,
+      "pct_chg": 3.072,
+      "volume": 1025717.13,
+      "amount": 3618469.263
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-02 00:00:00",
+      "open": 34.91,
+      "high": 35.0,
+      "low": 33.35,
+      "close": 33.44,
+      "pre_close": 35.23,
+      "change": -1.79,
+      "pct_chg": -5.0809,
+      "volume": 878662.24,
+      "amount": 2990306.475
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-03 00:00:00",
+      "open": 33.92,
+      "high": 34.31,
+      "low": 33.22,
+      "close": 33.57,
+      "pre_close": 33.44,
+      "change": 0.13,
+      "pct_chg": 0.3888,
+      "volume": 659702.68,
+      "amount": 2226285.553
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-07 00:00:00",
+      "open": 34.04,
+      "high": 34.47,
+      "low": 33.67,
+      "close": 33.81,
+      "pre_close": 33.57,
+      "change": 0.24,
+      "pct_chg": 0.7149,
+      "volume": 612583.99,
+      "amount": 2089509.878
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-08 00:00:00",
+      "open": 35.0,
+      "high": 36.3,
+      "low": 34.98,
+      "close": 36.2,
+      "pre_close": 33.81,
+      "change": 2.39,
+      "pct_chg": 7.0689,
+      "volume": 1363359.49,
+      "amount": 4860069.712
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-09 00:00:00",
+      "open": 35.61,
+      "high": 36.46,
+      "low": 35.61,
+      "close": 35.88,
+      "pre_close": 36.2,
+      "change": -0.32,
+      "pct_chg": -0.884,
+      "volume": 920558.18,
+      "amount": 3313079.601
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-10 00:00:00",
+      "open": 36.25,
+      "high": 36.81,
+      "low": 35.77,
+      "close": 35.79,
+      "pre_close": 35.88,
+      "change": -0.09,
+      "pct_chg": -0.2508,
+      "volume": 900387.06,
+      "amount": 3262770.524
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-13 00:00:00",
+      "open": 35.3,
+      "high": 36.38,
+      "low": 35.29,
+      "close": 35.99,
+      "pre_close": 35.79,
+      "change": 0.2,
+      "pct_chg": 0.5588,
+      "volume": 665363.22,
+      "amount": 2393869.551
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-14 00:00:00",
+      "open": 36.56,
+      "high": 36.98,
+      "low": 36.13,
+      "close": 36.49,
+      "pre_close": 35.99,
+      "change": 0.5,
+      "pct_chg": 1.3893,
+      "volume": 890478.03,
+      "amount": 3250550.351
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-15 00:00:00",
+      "open": 36.75,
+      "high": 37.29,
+      "low": 36.09,
+      "close": 36.4,
+      "pre_close": 36.49,
+      "change": -0.09,
+      "pct_chg": -0.2466,
+      "volume": 1006660.65,
+      "amount": 3683389.38
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-16 00:00:00",
+      "open": 36.6,
+      "high": 37.44,
+      "low": 36.4,
+      "close": 37.12,
+      "pre_close": 36.4,
+      "change": 0.72,
+      "pct_chg": 1.978,
+      "volume": 1142697.2,
+      "amount": 4223209.845
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-17 00:00:00",
+      "open": 36.85,
+      "high": 37.95,
+      "low": 36.71,
+      "close": 37.66,
+      "pre_close": 37.12,
+      "change": 0.54,
+      "pct_chg": 1.4547,
+      "volume": 1120084.27,
+      "amount": 4208897.333
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-20 00:00:00",
+      "open": 38.27,
+      "high": 38.76,
+      "low": 37.5,
+      "close": 37.67,
+      "pre_close": 37.66,
+      "change": 0.01,
+      "pct_chg": 0.0266,
+      "volume": 1378729.13,
+      "amount": 5247436.463
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-21 00:00:00",
+      "open": 37.07,
+      "high": 37.28,
+      "low": 35.9,
+      "close": 36.15,
+      "pre_close": 37.67,
+      "change": -1.52,
+      "pct_chg": -4.035,
+      "volume": 1020551.18,
+      "amount": 3699576.449
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-22 00:00:00",
+      "open": 36.16,
+      "high": 39.48,
+      "low": 35.66,
+      "close": 38.43,
+      "pre_close": 36.15,
+      "change": 2.28,
+      "pct_chg": 6.3071,
+      "volume": 1886806.73,
+      "amount": 7104750.644
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-23 00:00:00",
+      "open": 38.04,
+      "high": 39.16,
+      "low": 38.0,
+      "close": 38.22,
+      "pre_close": 38.43,
+      "change": -0.21,
+      "pct_chg": -0.5464,
+      "volume": 1335533.82,
+      "amount": 5142431.314
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-24 00:00:00",
+      "open": 37.83,
+      "high": 40.66,
+      "low": 36.94,
+      "close": 39.48,
+      "pre_close": 38.22,
+      "change": 1.26,
+      "pct_chg": 3.2967,
+      "volume": 2178065.87,
+      "amount": 8514043.177
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-27 00:00:00",
+      "open": 39.55,
+      "high": 39.78,
+      "low": 38.15,
+      "close": 38.3,
+      "pre_close": 39.48,
+      "change": -1.18,
+      "pct_chg": -2.9889,
+      "volume": 1699079.9,
+      "amount": 6582609.817
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-28 00:00:00",
+      "open": 36.88,
+      "high": 37.0,
+      "low": 34.47,
+      "close": 35.03,
+      "pre_close": 38.3,
+      "change": -3.27,
+      "pct_chg": -8.5379,
+      "volume": 2023227.5,
+      "amount": 7158218.431
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-29 00:00:00",
+      "open": 34.28,
+      "high": 35.38,
+      "low": 33.96,
+      "close": 34.91,
+      "pre_close": 35.03,
+      "change": -0.12,
+      "pct_chg": -0.3426,
+      "volume": 1052336.54,
+      "amount": 3671138.661
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-04-30 00:00:00",
+      "open": 34.97,
+      "high": 35.79,
+      "low": 34.7,
+      "close": 35.44,
+      "pre_close": 34.91,
+      "change": 0.53,
+      "pct_chg": 1.5182,
+      "volume": 926431.07,
+      "amount": 3276901.673
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-06 00:00:00",
+      "open": 36.16,
+      "high": 38.38,
+      "low": 36.15,
+      "close": 37.6,
+      "pre_close": 35.44,
+      "change": 2.16,
+      "pct_chg": 6.0948,
+      "volume": 1654390.6,
+      "amount": 6244983.186
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-07 00:00:00",
+      "open": 37.62,
+      "high": 37.9,
+      "low": 37.28,
+      "close": 37.75,
+      "pre_close": 37.6,
+      "change": 0.15,
+      "pct_chg": 0.3989,
+      "volume": 1007109.58,
+      "amount": 3780887.068
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-08 00:00:00",
+      "open": 36.56,
+      "high": 36.94,
+      "low": 35.8,
+      "close": 35.87,
+      "pre_close": 37.75,
+      "change": -1.88,
+      "pct_chg": -4.9801,
+      "volume": 1428716.11,
+      "amount": 5165741.181
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-11 00:00:00",
+      "open": 36.28,
+      "high": 36.55,
+      "low": 35.2,
+      "close": 35.22,
+      "pre_close": 35.87,
+      "change": -0.65,
+      "pct_chg": -1.8121,
+      "volume": 1176065.49,
+      "amount": 4179736.931
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-12 00:00:00",
+      "open": 35.18,
+      "high": 35.18,
+      "low": 33.7,
+      "close": 34.01,
+      "pre_close": 35.22,
+      "change": -1.21,
+      "pct_chg": -3.4355,
+      "volume": 1076623.46,
+      "amount": 3671627.917
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-13 00:00:00",
+      "open": 33.7,
+      "high": 35.5,
+      "low": 33.42,
+      "close": 35.23,
+      "pre_close": 34.01,
+      "change": 1.22,
+      "pct_chg": 3.5872,
+      "volume": 1082256.92,
+      "amount": 3754398.07
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-14 00:00:00",
+      "open": 35.53,
+      "high": 35.7,
+      "low": 33.65,
+      "close": 33.67,
+      "pre_close": 35.23,
+      "change": -1.56,
+      "pct_chg": -4.428,
+      "volume": 903350.66,
+      "amount": 3095046.713
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-15 00:00:00",
+      "open": 33.54,
+      "high": 34.11,
+      "low": 33.22,
+      "close": 33.33,
+      "pre_close": 33.67,
+      "change": -0.34,
+      "pct_chg": -1.0098,
+      "volume": 693661.03,
+      "amount": 2333872.574
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-18 00:00:00",
+      "open": 33.68,
+      "high": 34.19,
+      "low": 33.55,
+      "close": 33.93,
+      "pre_close": 33.33,
+      "change": 0.6,
+      "pct_chg": 1.8002,
+      "volume": 600285.3,
+      "amount": 2037117.004
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-19 00:00:00",
+      "open": 33.84,
+      "high": 34.69,
+      "low": 33.27,
+      "close": 34.68,
+      "pre_close": 33.93,
+      "change": 0.75,
+      "pct_chg": 2.2104,
+      "volume": 761040.7,
+      "amount": 2605120.523
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-20 00:00:00",
+      "open": 34.45,
+      "high": 34.68,
+      "low": 33.6,
+      "close": 33.7,
+      "pre_close": 34.68,
+      "change": -0.98,
+      "pct_chg": -2.8258,
+      "volume": 616826.47,
+      "amount": 2089059.28
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-21 00:00:00",
+      "open": 34.1,
+      "high": 34.1,
+      "low": 32.22,
+      "close": 32.27,
+      "pre_close": 33.7,
+      "change": -1.43,
+      "pct_chg": -4.2433,
+      "volume": 734876.38,
+      "amount": 2435066.9
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-22 00:00:00",
+      "open": 32.27,
+      "high": 32.58,
+      "low": 31.68,
+      "close": 32.23,
+      "pre_close": 32.27,
+      "change": -0.04,
+      "pct_chg": -0.124,
+      "volume": 560046.15,
+      "amount": 1800025.016
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-25 00:00:00",
+      "open": 32.4,
+      "high": 33.45,
+      "low": 31.84,
+      "close": 33.17,
+      "pre_close": 32.23,
+      "change": 0.94,
+      "pct_chg": 2.9165,
+      "volume": 812117.42,
+      "amount": 2652831.184
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-26 00:00:00",
+      "open": 32.84,
+      "high": 33.44,
+      "low": 32.01,
+      "close": 32.25,
+      "pre_close": 33.17,
+      "change": -0.92,
+      "pct_chg": -2.7736,
+      "volume": 544501.7,
+      "amount": 1771323.3065
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-27 00:00:00",
+      "open": 32.0,
+      "high": 32.0,
+      "low": 30.46,
+      "close": 30.55,
+      "pre_close": 32.25,
+      "change": -1.7,
+      "pct_chg": -5.2713,
+      "volume": 718718.92,
+      "amount": 2231177.585
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-28 00:00:00",
+      "open": 30.55,
+      "high": 31.09,
+      "low": 29.94,
+      "close": 30.86,
+      "pre_close": 30.55,
+      "change": 0.31,
+      "pct_chg": 1.0147,
+      "volume": 542436.01,
+      "amount": 1654867.235
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-05-29 00:00:00",
+      "open": 30.95,
+      "high": 31.27,
+      "low": 29.55,
+      "close": 29.68,
+      "pre_close": 30.86,
+      "change": -1.18,
+      "pct_chg": -3.8237,
+      "volume": 495094.15,
+      "amount": 1495231.034
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-01 00:00:00",
+      "open": 29.74,
+      "high": 30.86,
+      "low": 29.73,
+      "close": 30.48,
+      "pre_close": 29.68,
+      "change": 0.8,
+      "pct_chg": 2.6954,
+      "volume": 514072.27,
+      "amount": 1566598.096
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-02 00:00:00",
+      "open": 30.5,
+      "high": 30.59,
+      "low": 29.47,
+      "close": 30.04,
+      "pre_close": 30.48,
+      "change": -0.44,
+      "pct_chg": -1.4436,
+      "volume": 406453.83,
+      "amount": 1217802.455
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-03 00:00:00",
+      "open": 30.0,
+      "high": 30.4,
+      "low": 29.65,
+      "close": 29.87,
+      "pre_close": 30.04,
+      "change": -0.17,
+      "pct_chg": -0.5659,
+      "volume": 392747.49,
+      "amount": 1180547.075
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-04 00:00:00",
+      "open": 29.56,
+      "high": 29.6,
+      "low": 28.82,
+      "close": 29.03,
+      "pre_close": 29.87,
+      "change": -0.84,
+      "pct_chg": -2.8122,
+      "volume": 472942.77,
+      "amount": 1375736.763
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-05 00:00:00",
+      "open": 29.0,
+      "high": 29.1,
+      "low": 28.12,
+      "close": 28.39,
+      "pre_close": 29.03,
+      "change": -0.64,
+      "pct_chg": -2.2046,
+      "volume": 474780.23,
+      "amount": 1355850.432
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-08 00:00:00",
+      "open": 27.25,
+      "high": 28.17,
+      "low": 26.65,
+      "close": 27.05,
+      "pre_close": 28.39,
+      "change": -1.34,
+      "pct_chg": -4.72,
+      "volume": 500198.05,
+      "amount": 1366431.859
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-09 00:00:00",
+      "open": 27.49,
+      "high": 28.5,
+      "low": 26.9,
+      "close": 28.1,
+      "pre_close": 27.05,
+      "change": 1.05,
+      "pct_chg": 3.8817,
+      "volume": 540995.43,
+      "amount": 1506747.6723
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-10 00:00:00",
+      "open": 28.11,
+      "high": 30.91,
+      "low": 28.01,
+      "close": 30.91,
+      "pre_close": 28.1,
+      "change": 2.81,
+      "pct_chg": 10.0,
+      "volume": 616774.32,
+      "amount": 1849854.7017
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-11 00:00:00",
+      "open": 30.59,
+      "high": 30.59,
+      "low": 28.88,
+      "close": 28.92,
+      "pre_close": 30.91,
+      "change": -1.99,
+      "pct_chg": -6.438,
+      "volume": 870623.42,
+      "amount": 2542105.8801
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-12 00:00:00",
+      "open": 29.2,
+      "high": 30.59,
+      "low": 28.85,
+      "close": 29.81,
+      "pre_close": 28.92,
+      "change": 0.89,
+      "pct_chg": 3.0775,
+      "volume": 927366.02,
+      "amount": 2739322.0959
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-15 00:00:00",
+      "open": 29.82,
+      "high": 30.3,
+      "low": 29.56,
+      "close": 30.19,
+      "pre_close": 29.81,
+      "change": 0.38,
+      "pct_chg": 1.2747,
+      "volume": 676243.72,
+      "amount": 2031641.0115
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-16 00:00:00",
+      "open": 29.85,
+      "high": 30.2,
+      "low": 29.41,
+      "close": 30.01,
+      "pre_close": 30.19,
+      "change": -0.18,
+      "pct_chg": -0.5962,
+      "volume": 547947.41,
+      "amount": 1634991.6795
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-17 00:00:00",
+      "open": 29.7,
+      "high": 29.97,
+      "low": 29.24,
+      "close": 29.5,
+      "pre_close": 30.01,
+      "change": -0.51,
+      "pct_chg": -1.6994,
+      "volume": 500794.33,
+      "amount": 1480375.1104
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-18 00:00:00",
+      "open": 29.86,
+      "high": 30.76,
+      "low": 29.48,
+      "close": 30.54,
+      "pre_close": 29.5,
+      "change": 1.04,
+      "pct_chg": 3.5254,
+      "volume": 780514.06,
+      "amount": 2363961.64
+    },
+    {
+      "ts_code": "002261.SZ",
+      "date": "2026-06-22 00:00:00",
+      "open": 30.4,
+      "high": 31.36,
+      "low": 30.01,
+      "close": 31.2,
+      "pre_close": 30.54,
+      "change": 0.66,
+      "pct_chg": 2.1611,
+      "volume": 799190.69,
+      "amount": 2460303.0108
+    }
+  ],
+  "data_quality": {
+    "score": 100,
+    "issues": []
+  }
+}

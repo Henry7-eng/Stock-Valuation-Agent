@@ -1,0 +1,222 @@
+{
+  "schema_version": "rebuy_portfolio.v1",
+  "requested_as_of": "2026-06-08",
+  "as_of": "2026-06-08",
+  "actual_trade_date": "20260608",
+  "data_source": "tushare",
+  "fallback_note": null,
+  "closed_positions": [
+    {
+      "ts_code": "002156.SZ",
+      "entry_price": 70.8,
+      "exit_price": 63.58,
+      "exit_date": "20260608",
+      "original_qty": 100,
+      "max_rebuy_qty": 100,
+      "want_rebuy": true
+    },
+    {
+      "ts_code": "000977.SZ",
+      "entry_price": 62.97,
+      "exit_price": 58.02,
+      "exit_date": "20260608",
+      "original_qty": 100,
+      "max_rebuy_qty": 100,
+      "want_rebuy": true
+    },
+    {
+      "ts_code": "002077.SZ",
+      "entry_price": 16.76,
+      "exit_price": 15.48,
+      "exit_date": "20260608",
+      "original_qty": 500,
+      "max_rebuy_qty": 500,
+      "want_rebuy": true
+    }
+  ],
+  "open_positions": [
+    {
+      "ts_code": "601138.SH",
+      "entry_price": 80.0,
+      "qty": 100,
+      "plan": "减仓或清仓；价格已低于 73.65，因未及时设置条件单",
+      "hard_exit_price": 73.65
+    },
+    {
+      "ts_code": "000938.SZ",
+      "entry_price": 27.54,
+      "qty": 300,
+      "plan": "继续持有 / 等待加仓",
+      "hard_exit_price": null
+    },
+    {
+      "ts_code": "000988.SZ",
+      "entry_price": 151.94,
+      "qty": 100,
+      "plan": "继续持有 / 等待加仓",
+      "hard_exit_price": null
+    }
+  ],
+  "rebuy_signals": [
+    {
+      "ts_code": "002156.SZ",
+      "name": "通富微电",
+      "trade_date": "20260608",
+      "signal": "WATCH_REBUY",
+      "action": "观察买回，等待重新站回清仓价/MA5",
+      "close": 62.26,
+      "entry_price": 70.8,
+      "exit_price": 63.58,
+      "max_rebuy_qty": 100,
+      "suggested_qty": 0,
+      "pnl_from_entry_pct": -0.1206,
+      "distance_to_exit_price_pct": -0.0208,
+      "dry_volume_ratio": 0.657,
+      "ma5": 66.85,
+      "ma10": 67.79,
+      "ma20": 64.34,
+      "black_swan_high": 64.58,
+      "black_swan_low": 61.08,
+      "trigger_price": 66.85,
+      "stop_price": 59.4,
+      "notes": [
+        "杀跌动能有收敛迹象，但尚未给出买回触发",
+        "现价仍低于清仓价 63.58",
+        "现价仍低于原买入均价 70.80",
+        "黑天鹅日高低点：64.58/61.08"
+      ]
+    },
+    {
+      "ts_code": "000977.SZ",
+      "name": "浪潮信息",
+      "trade_date": "20260608",
+      "signal": "NO_REBUY",
+      "action": "禁止买回，继续等右侧确认",
+      "close": 57.89,
+      "entry_price": 62.97,
+      "exit_price": 58.02,
+      "max_rebuy_qty": 100,
+      "suggested_qty": 0,
+      "pnl_from_entry_pct": -0.0807,
+      "distance_to_exit_price_pct": -0.0022,
+      "dry_volume_ratio": 0.913,
+      "ma5": 62.52,
+      "ma10": 63.96,
+      "ma20": 67.49,
+      "black_swan_high": 60.7,
+      "black_swan_low": 57.4,
+      "trigger_price": 62.52,
+      "stop_price": 56.28,
+      "notes": [
+        "尚未满足买回条件，至少等待站回清仓价或 MA5",
+        "现价仍低于清仓价 58.02",
+        "现价仍低于原买入均价 62.97",
+        "黑天鹅日高低点：60.70/57.40"
+      ]
+    },
+    {
+      "ts_code": "002077.SZ",
+      "name": "大港股份",
+      "trade_date": "20260608",
+      "signal": "NO_REBUY",
+      "action": "禁止买回，继续等右侧确认",
+      "close": 15.5,
+      "entry_price": 16.76,
+      "exit_price": 15.48,
+      "max_rebuy_qty": 500,
+      "suggested_qty": 0,
+      "pnl_from_entry_pct": -0.0752,
+      "distance_to_exit_price_pct": 0.0013,
+      "dry_volume_ratio": 0.696,
+      "ma5": 16.69,
+      "ma10": 17.32,
+      "ma20": 17.53,
+      "black_swan_high": 16.29,
+      "black_swan_low": 15.33,
+      "trigger_price": 16.69,
+      "stop_price": 15.02,
+      "notes": [
+        "尚未满足买回条件，至少等待站回清仓价或 MA5",
+        "现价仍低于原买入均价 16.76",
+        "黑天鹅日高低点：16.29/15.33"
+      ]
+    }
+  ],
+  "holding_signals": [
+    {
+      "ts_code": "601138.SH",
+      "name": "工业富联",
+      "trade_date": "20260608",
+      "signal": "REDUCE_OR_EXIT",
+      "action": "已跌破预设硬风控线，优先减仓/清仓，不做加仓",
+      "close": 70.48,
+      "entry_price": 80.0,
+      "qty": 100,
+      "market_value": 7048.0,
+      "unrealized_pnl_pct": -0.119,
+      "dry_volume_ratio": 0.689,
+      "ma5": 76.83,
+      "ma10": 74.64,
+      "ma20": 71.32,
+      "hard_exit_price": 73.65,
+      "risk_line": 73.65,
+      "add_trigger_price": 84.95,
+      "notes": [
+        "现价 70.48 已低于硬风控线 73.65",
+        "浮亏中：现价低于成本 80.00",
+        "现价低于 MA20 71.32"
+      ]
+    },
+    {
+      "ts_code": "000938.SZ",
+      "name": "紫光股份",
+      "trade_date": "20260608",
+      "signal": "HOLD_WATCH",
+      "action": "持仓观察，暂不加仓",
+      "close": 25.91,
+      "entry_price": 27.54,
+      "qty": 300,
+      "market_value": 7773.0,
+      "unrealized_pnl_pct": -0.0592,
+      "dry_volume_ratio": 0.902,
+      "ma5": 27.59,
+      "ma10": 28.02,
+      "ma20": 29.73,
+      "hard_exit_price": null,
+      "risk_line": 25.34,
+      "add_trigger_price": 33.08,
+      "notes": [
+        "结构尚未转强，等待站回均线或突破枢纽",
+        "浮亏中：现价低于成本 27.54",
+        "现价低于 MA20 29.73"
+      ]
+    },
+    {
+      "ts_code": "000988.SZ",
+      "name": "华工科技",
+      "trade_date": "20260608",
+      "signal": "HOLD_WATCH",
+      "action": "持仓观察，暂不加仓",
+      "close": 148.85,
+      "entry_price": 151.94,
+      "qty": 100,
+      "market_value": 14885.0,
+      "unrealized_pnl_pct": -0.0203,
+      "dry_volume_ratio": 0.707,
+      "ma5": 153.61,
+      "ma10": 155.89,
+      "ma20": 153.4,
+      "hard_exit_price": null,
+      "risk_line": 139.78,
+      "add_trigger_price": 175.8,
+      "notes": [
+        "结构尚未转强，等待站回均线或突破枢纽",
+        "浮亏中：现价低于成本 151.94",
+        "现价低于 MA20 153.40"
+      ]
+    }
+  ],
+  "errors": [],
+  "report_path": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/Rebuy_Portfolio_Monitor/rebuy_portfolio_report_20260608.md",
+  "generated_at": "2026-06-17T11:07:56"
+}

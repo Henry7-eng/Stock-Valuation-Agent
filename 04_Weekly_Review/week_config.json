@@ -1,0 +1,10 @@
+{
+  "week_label": "2026-W23",
+  "week_start_cash": 0,
+  "week_end_cash": 0,
+  "max_weekly_trades": 8,
+  "benchmark": {
+    "hs300_weekly_return": 0.0,
+    "csi_dividend_weekly_return": 0.0
+  }
+}

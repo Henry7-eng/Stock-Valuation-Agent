@@ -1,0 +1,42 @@
+{
+  "run_id": "20260622_165353",
+  "generated_at": "2026-06-22 17:25:24",
+  "status": "ok",
+  "freshness": {
+    "checked_at": "2026-06-22 17:25:24",
+    "is_fresh": true,
+    "alerts": []
+  },
+  "retry_summary": {
+    "failed_step_count": 0,
+    "most_failed_step": null,
+    "failed_stocks": [],
+    "suggested_retry_commands": []
+  },
+  "steps": [
+    {
+      "cmd": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -m 03_Quant_Data.extract_themes_from_vip",
+      "returncode": 0,
+      "stdout": "[OK] themes -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/themes.json\n",
+      "stderr": ""
+    },
+    {
+      "cmd": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -m 03_Quant_Data.tushare_pool_builder --top-n 50",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "2026-06-22 17:22:44,821 | tushare_pool_builder | INFO | 已输出候选池: /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/candidate_pool_pending_review.json\n"
+    },
+    {
+      "cmd": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -m 03_Quant_Data.akshare_stock_upgrade",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": " 完成: 600372(600372) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/600372.json\n2026-06-22 17:24:56,907 | akshare_stock_upgrade | INFO | 完成: 000768(000768) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/000768.json\n2026-06-22 17:24:58,355 | akshare_stock_upgrade | INFO | 完成: 002939(002939) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002939.json\n2026-06-22 17:24:59,416 | akshare_stock_upgrade | INFO | 完成: 002708(002708) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002708.json\n2026-06-22 17:25:00,512 | akshare_stock_upgrade | INFO | 完成: 001696(001696) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/001696.json\n2026-06-22 17:25:02,432 | akshare_stock_upgrade | INFO | 完成: 600580(600580) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/600580.json\n2026-06-22 17:25:04,005 | akshare_stock_upgrade | INFO | 完成: 603986(603986) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/603986.json\n2026-06-22 17:25:05,055 | akshare_stock_upgrade | INFO | 完成: 002156(002156) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002156.json\n2026-06-22 17:25:06,101 | akshare_stock_upgrade | INFO | 完成: 000021(000021) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/000021.json\n2026-06-22 17:25:07,365 | akshare_stock_upgrade | INFO | 完成: 600667(600667) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/600667.json\n2026-06-22 17:25:08,963 | akshare_stock_upgrade | INFO | 完成: 002409(002409) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002409.json\n2026-06-22 17:25:10,020 | akshare_stock_upgrade | INFO | 完成: 002049(002049) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002049.json\n2026-06-22 17:25:11,063 | akshare_stock_upgrade | INFO | 完成: 001309(001309) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/001309.json\n2026-06-22 17:25:12,522 | akshare_stock_upgrade | INFO | 完成: 600584(600584) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/600584.json\n2026-06-22 17:25:13,631 | akshare_stock_upgrade | INFO | 完成: 002371(002371) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002371.json\n2026-06-22 17:25:14,724 | akshare_stock_upgrade | INFO | 完成: 002077(002077) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002077.json\n2026-06-22 17:25:15,818 | akshare_stock_upgrade | INFO | 完成: 600360(600360) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/600360.json\n2026-06-22 17:25:16,885 | akshare_stock_upgrade | INFO | 完成: 600460(600460) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/600460.json\n2026-06-22 17:25:17,992 | akshare_stock_upgrade | INFO | 完成: 603290(603290) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/603290.json\n2026-06-22 17:25:20,425 | akshare_stock_upgrade | INFO | 完成: 603606(603606) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/603606.json\n2026-06-22 17:25:21,602 | akshare_stock_upgrade | INFO | 完成: 002119(002119) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002119.json\n2026-06-22 17:25:22,786 | akshare_stock_upgrade | INFO | 完成: 003026(003026) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/003026.json\n2026-06-22 17:25:24,009 | akshare_stock_upgrade | INFO | 完成: 600745(600745) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/600745.json\n2026-06-22 17:25:24,029 | akshare_stock_upgrade | INFO | 已输出汇总到 /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/akshare_stock_upgrade_output.json\n"
+    }
+  ],
+  "outputs": {
+    "themes": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/themes.json",
+    "pool": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/candidate_pool_pending_review.json",
+    "approval_sheet": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/candidate_pool_approval_sheet.json",
+    "stage3_data": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/akshare_stock_upgrade_output.json"
+  }
+}

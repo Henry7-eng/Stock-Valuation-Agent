@@ -1,0 +1,36 @@
+{
+  "run_id": "20260603_001535",
+  "generated_at": "2026-06-03 00:36:36",
+  "status": "ok",
+  "freshness": {
+    "checked_at": "2026-06-03 00:36:36",
+    "is_fresh": true,
+    "alerts": []
+  },
+  "retry_summary": {
+    "failed_step_count": 0,
+    "most_failed_step": null,
+    "failed_stocks": [],
+    "suggested_retry_commands": []
+  },
+  "steps": [
+    {
+      "cmd": "/Users/pingguodiannao/Desktop/investment/.venv/bin/python -m 03_Quant_Data.tushare_pool_builder",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "r.py:82: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n\n  out[\"trade_date\"] = pd.to_datetime(out[\"trade_date\"], format=\"%Y%m%d\", errors=\"coerce\")\n/Users/pingguodiannao/Desktop/investment/03_Quant_Data/tushare_pool_builder.py:82: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n\n  out[\"trade_date\"] = pd.to_datetime(out[\"trade_date\"], format=\"%Y%m%d\", errors=\"coerce\")\n/Users/pingguodiannao/Desktop/investment/03_Quant_Data/tushare_pool_builder.py:82: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n\n  out[\"trade_date\"] = pd.to_datetime(out[\"trade_date\"], format=\"%Y%m%d\", errors=\"coerce\")\n/Users/pingguodiannao/Desktop/investment/03_Quant_Data/tushare_pool_builder.py:82: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!\nYou are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.\nA typical example is when you are setting values in a column of a DataFrame, like:\n\ndf[\"col\"][row_indexer] = value\n\nUse `df.loc[row_indexer, \"col\"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n\n  out[\"trade_date\"] = pd.to_datetime(out[\"trade_date\"], format=\"%Y%m%d\", errors=\"coerce\")\n2026-06-03 00:31:50,322 | tushare_pool_builder | INFO | 已输出候选池: /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/candidate_pool_pending_review.json\n"
+    },
+    {
+      "cmd": "/Users/pingguodiannao/Desktop/investment/.venv/bin/python -m 03_Quant_Data.akshare_stock_upgrade",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "2026-06-03 00:32:48,188 | akshare_stock_upgrade | INFO | 完成: 中航光电(002179) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002179.json\n2026-06-03 00:33:44,770 | akshare_stock_upgrade | INFO | 完成: 中瓷电子(003031) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/003031.json\n2026-06-03 00:34:42,352 | akshare_stock_upgrade | INFO | 完成: 航天电器(002025) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002025.json\n2026-06-03 00:35:39,496 | akshare_stock_upgrade | INFO | 完成: 光迅科技(002281) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002281.json\n2026-06-03 00:36:36,411 | akshare_stock_upgrade | INFO | 完成: 福晶科技(002222) -> /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/stocks/002222.json\n2026-06-03 00:36:36,412 | akshare_stock_upgrade | INFO | 已输出汇总到 /Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/akshare_stock_upgrade_output.json\n"
+    }
+  ],
+  "outputs": {
+    "themes": null,
+    "pool": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/candidate_pool_pending_review.json",
+    "approval_sheet": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/candidate_pool_approval_sheet.json",
+    "stage3_data": "/Users/pingguodiannao/Desktop/investment/03_Quant_Data/A_Share_Reports/akshare_stock_upgrade_output.json"
+  }
+}

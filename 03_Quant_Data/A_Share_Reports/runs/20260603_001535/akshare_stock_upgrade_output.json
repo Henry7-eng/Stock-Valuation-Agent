@@ -1,0 +1,327 @@
+{
+  "schema_version": "stage3.v1",
+  "generated_at": "2026-06-03 00:36:36",
+  "run_summary": {
+    "started_at": "2026-06-03 00:31:50",
+    "finished_at": "2026-06-03 00:36:36",
+    "elapsed_seconds": 285.58,
+    "stock_count": 5,
+    "success_count": 5,
+    "schema_valid_count": 5,
+    "data_source": "tushare_only",
+    "enable_akshare_fallback": false,
+    "tushare_available": true
+  },
+  "stocks": [
+    {
+      "schema_version": "stage3.v1",
+      "as_of_date": "2026-06-03",
+      "code": "002179",
+      "name": "中航光电",
+      "snapshot": {
+        "latest_price": null,
+        "total_market_cap": null,
+        "pe_ttm": null,
+        "pb": null,
+        "roe": null,
+        "source": [
+          "tushare"
+        ]
+      },
+      "valuation_and_growth": {
+        "expected_growth_consensus_pct": null,
+        "peg": null,
+        "status": "missing_pe"
+      },
+      "fund_flow_20d": {
+        "net_inflow_20d": null,
+        "series": null,
+        "source": "tushare.moneyflow",
+        "status": "error:您的token不对，请确认。"
+      },
+      "institution_holding_change": {
+        "inst_holding_change": null,
+        "source": "tushare.top10_floatholders",
+        "status": "error:您的token不对，请确认。"
+      },
+      "daily_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "weekly_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "daily_kline_3m": [],
+      "data_quality": {
+        "score": 40,
+        "issues": [
+          "missing_daily_kline",
+          "missing_weekly_kline",
+          "missing_latest_price",
+          "missing_pe_ttm"
+        ]
+      }
+    },
+    {
+      "schema_version": "stage3.v1",
+      "as_of_date": "2026-06-03",
+      "code": "003031",
+      "name": "中瓷电子",
+      "snapshot": {
+        "latest_price": null,
+        "total_market_cap": null,
+        "pe_ttm": null,
+        "pb": null,
+        "roe": null,
+        "source": [
+          "tushare"
+        ]
+      },
+      "valuation_and_growth": {
+        "expected_growth_consensus_pct": null,
+        "peg": null,
+        "status": "missing_pe"
+      },
+      "fund_flow_20d": {
+        "net_inflow_20d": null,
+        "series": null,
+        "source": "tushare.moneyflow",
+        "status": "error:您的token不对，请确认。"
+      },
+      "institution_holding_change": {
+        "inst_holding_change": null,
+        "source": "tushare.top10_floatholders",
+        "status": "error:您的token不对，请确认。"
+      },
+      "daily_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "weekly_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "daily_kline_3m": [],
+      "data_quality": {
+        "score": 40,
+        "issues": [
+          "missing_daily_kline",
+          "missing_weekly_kline",
+          "missing_latest_price",
+          "missing_pe_ttm"
+        ]
+      }
+    },
+    {
+      "schema_version": "stage3.v1",
+      "as_of_date": "2026-06-03",
+      "code": "002025",
+      "name": "航天电器",
+      "snapshot": {
+        "latest_price": null,
+        "total_market_cap": null,
+        "pe_ttm": null,
+        "pb": null,
+        "roe": null,
+        "source": [
+          "tushare"
+        ]
+      },
+      "valuation_and_growth": {
+        "expected_growth_consensus_pct": null,
+        "peg": null,
+        "status": "missing_pe"
+      },
+      "fund_flow_20d": {
+        "net_inflow_20d": null,
+        "series": null,
+        "source": "tushare.moneyflow",
+        "status": "error:您的token不对，请确认。"
+      },
+      "institution_holding_change": {
+        "inst_holding_change": null,
+        "source": "tushare.top10_floatholders",
+        "status": "error:您的token不对，请确认。"
+      },
+      "daily_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "weekly_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "daily_kline_3m": [],
+      "data_quality": {
+        "score": 40,
+        "issues": [
+          "missing_daily_kline",
+          "missing_weekly_kline",
+          "missing_latest_price",
+          "missing_pe_ttm"
+        ]
+      }
+    },
+    {
+      "schema_version": "stage3.v1",
+      "as_of_date": "2026-06-03",
+      "code": "002281",
+      "name": "光迅科技",
+      "snapshot": {
+        "latest_price": null,
+        "total_market_cap": null,
+        "pe_ttm": null,
+        "pb": null,
+        "roe": null,
+        "source": [
+          "tushare"
+        ]
+      },
+      "valuation_and_growth": {
+        "expected_growth_consensus_pct": null,
+        "peg": null,
+        "status": "missing_pe"
+      },
+      "fund_flow_20d": {
+        "net_inflow_20d": null,
+        "series": null,
+        "source": "tushare.moneyflow",
+        "status": "error:您的token不对，请确认。"
+      },
+      "institution_holding_change": {
+        "inst_holding_change": null,
+        "source": "tushare.top10_floatholders",
+        "status": "error:您的token不对，请确认。"
+      },
+      "daily_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "weekly_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "daily_kline_3m": [],
+      "data_quality": {
+        "score": 40,
+        "issues": [
+          "missing_daily_kline",
+          "missing_weekly_kline",
+          "missing_latest_price",
+          "missing_pe_ttm"
+        ]
+      }
+    },
+    {
+      "schema_version": "stage3.v1",
+      "as_of_date": "2026-06-03",
+      "code": "002222",
+      "name": "福晶科技",
+      "snapshot": {
+        "latest_price": null,
+        "total_market_cap": null,
+        "pe_ttm": null,
+        "pb": null,
+        "roe": null,
+        "source": [
+          "tushare"
+        ]
+      },
+      "valuation_and_growth": {
+        "expected_growth_consensus_pct": null,
+        "peg": null,
+        "status": "missing_pe"
+      },
+      "fund_flow_20d": {
+        "net_inflow_20d": null,
+        "series": null,
+        "source": "tushare.moneyflow",
+        "status": "error:您的token不对，请确认。"
+      },
+      "institution_holding_change": {
+        "inst_holding_change": null,
+        "source": "tushare.top10_floatholders",
+        "status": "error:您的token不对，请确认。"
+      },
+      "daily_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "weekly_ma_volume": {
+        "close": null,
+        "ma60": null,
+        "ma120": null,
+        "pos_vs_ma60": null,
+        "pos_vs_ma120": null,
+        "volume_last": null,
+        "volume_5d_avg": null,
+        "volume_change_vs_5d": null
+      },
+      "daily_kline_3m": [],
+      "data_quality": {
+        "score": 40,
+        "issues": [
+          "missing_daily_kline",
+          "missing_weekly_kline",
+          "missing_latest_price",
+          "missing_pe_ttm"
+        ]
+      }
+    }
+  ]
+}

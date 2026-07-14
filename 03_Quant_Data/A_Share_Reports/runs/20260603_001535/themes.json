@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-06-02 17:12:48",
+  "source_dir": "/Users/pingguodiannao/Desktop/investment/01_Data_Harvest/VIP_Txt_Dumps",
+  "min_confidence": 0.35,
+  "themes": [
+    {
+      "track": "Low_Altitude_eVTOL",
+      "signal_count": 4,
+      "avg_confidence": 0.667,
+      "top_keywords": [
+        "evtol",
+        "hybrid",
+        "dreamfly",
+        "bets",
+        "cargo",
+        "first",
+        "path",
+        "skyfly"
+      ],
+      "sample_titles": [
+        "dreamfly bets hybrid cargo first evtol path",
+        "skyfly advances axe personal evtol flight tests eyes 27 deliveries",
+        "autoflight evtol demo boosts kazakhstan air taxi plans",
+        "honda flies full scale hybrid evtol demonstrator us"
+      ]
+    },
+    {
+      "track": "Humanoid_Robotics",
+      "signal_count": 4,
+      "avg_confidence": 0.571,
+      "top_keywords": [
+        "humanoid",
+        "robots",
+        "nvidia",
+        "unitree",
+        "robotics",
+        "system",
+        "researchers",
+        "html"
+      ],
+      "sample_titles": [
+        "nvidia unitree humanoid robotics system researchers.html",
+        "NIST proposes a baseline performance benchmark for humanoid robots",
+        "Humanoid Robots",
+        "Reality Is Ruining the Humanoid Robot Hype"
+      ]
+    },
+    {
+      "track": "Next_Gen_Storage",
+      "signal_count": 1,
+      "avg_confidence": 0.5,
+      "top_keywords": [
+        "router-in-a-package",
+        "design",
+        "combining",
+        "hbm4",
+        "chiplets",
+        "in-package",
+        "optics",
+        "technion"
+      ],
+      "sample_titles": [
+        "Router-in-a-Package Design Combining HBM4, Chiplets and In-Package Optics (Technion, Berkeley, UCSD)"
+      ]
+    },
+    {
+      "track": "Innovative_Drugs",
+      "signal_count": 11,
+      "avg_confidence": 0.444,
+      "top_keywords": [
+        "chiplet",
+        "new",
+        "chip",
+        "finds",
+        "bigger",
+        "meta",
+        "reportedly",
+        "developing"
+      ],
+      "sample_titles": [
+        "Meta is reportedly developing an AI pendant",
+        "Datacenter builders face an impossible quandary: Demand to the left of me, protests to the right Wood Mackenzie analysts say bit barn operators are in a tough spot",
+        "Pathfinding Method That Models ECC Overhead for Chiplet Interconnects (UCLA)",
+        "nvidias new chip to power fresh line of windows laptops by dell hp.html",
+        "Software becoming the biggest bottleneck to physical AI innovation, finds QNX research"
+      ]
+    }
+  ]
+}
